@@ -1,0 +1,144 @@
+body {
+  background-color: #29323c;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.link-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  gap: 10px;
+}
+
+.social-links {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 50%;
+  text-align: center;
+  margin: 10px 5px;
+}
+
+.nav-container {
+  border-bottom: 1px solid white;
+  width: 100%;
+  margin: 10px;
+}
+
+.nav {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.nav:hover {
+  font-weight: bold;
+}
+
+.profile {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 2px solid white;
+  margin-top: 20px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+}
+
+h1,
+h2 {
+  margin: 5px 0 10px 0;
+}
+
+table,
+th,
+td {
+  border: 1px solid white;
+  border-collapse: collapse;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+  padding: 15px;
+}
+
+ul li {
+  list-style-type: circle;
+  margin: 5px 0;
+  text-align: left;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.fa-arrow-up-right-from-square {
+  margin-left: 5px;
+}
+
+.projects {
+  width: 625px;
+  height: 425px;
+  border-radius: 10px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+}
+
+.project-container {
+  position: relative;
+}
+
+.text {
+  position: absolute;
+  bottom: 16px;
+  left: 8px;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.form-container {
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #1d232a;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+  margin: 20px;
+}
+
+input,
+textarea {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  background-color: #495159;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+}
+
+input::placeholder {
+  color: black;
+  opacity: 0.5;
+}
+
+#submit {
+  color: #1d232a;
+  cursor: pointer;
+  background-color: white;
+  font-weight: bold;
+}
